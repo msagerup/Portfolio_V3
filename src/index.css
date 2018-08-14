@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  font-family: 'Roboto';
+}
+
+.tabs .tab a {
+  color: #333;
+} /*Black color to the text*/
+
+.tabs .tab a:hover {
+  color: orange;
+} /*Text color on hover*/
+
+.tabs .indicator {
+  background-color: white;
+} /*Color of underline*/
+
+/*Splash URL */
+.splash_text {
+  font-size: 15rem;
+  color: #332;
+  font-weight: 700;
+}
