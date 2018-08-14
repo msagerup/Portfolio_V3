@@ -9,7 +9,11 @@ const Splash = () => {
         style={{ height: '60vh' }}
         className="grey darken-4 white-text valign-wrapper"
       >
-        <h1 className="splash_text">δДgΞΓЦp</h1>
+        <Card className="grey darken-4">
+          <h1 className="splash_text" style={{ color: '#885631' }}>
+            δДgΞΓЦp
+          </h1>
+        </Card>
       </Col>
     </div>
   );
