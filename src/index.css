@@ -19,7 +19,51 @@ body {
 
 /*Splash URL */
 .splash_text {
-  font-size: 15rem;
+  font-size: 11rem;
   color: #332;
-  font-weight: 700;
+  font-weight: 600;
+}
+
+.splash_text_med {
+  font-size: 11rem;
+  color: #332;
+  font-weight: 600;
+}
+
+.splash_text_small {
+  padding-top: 300px;
+  font-size: 5rem;
+  letter-spacing: 5px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+  .splash_text {
+    font-size: 4rem;
+    color: #332;
+    font-weight: 600;
+  }
+
+  .splash_text_small {
+    padding-top: 300px;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .splash_text {
+    font-size: 6rem;
+    color: #332;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .splash_text {
+    font-size: 13rem;
+    color: #332;
+    font-weight: 600;
+  }
 }

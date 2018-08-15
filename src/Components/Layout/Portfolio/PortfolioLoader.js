@@ -7,8 +7,10 @@ class PortfolioLoader extends Component {
     return (
       <div>
         <Row className="grey darken-3 ">
-          <Col l={7}>
-            <h4>Check out! Projects beloω...</h4>
+          <Col l={7} s={12}>
+            <h4 className="blue-grey-text text-lighten-4 splash_text_small">
+              Check out! Projects beloω...
+            </h4>
             <p className="blue-grey-text text-lighten-3">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
               at omnis dignissimos nam ipsum totam, sunt architecto aspernatur
@@ -18,22 +20,21 @@ class PortfolioLoader extends Component {
               dolorem suscipit possimus. Suscipit id repellat doloremque quidem
               temporibus ut rem voluptatibus optio cum, similique maiores.
             </p>
-            <Row>
-              <Tabs className="grey darken-2 tabs-fixed-width">
-                <Tab title="React" className="grey darken-2">
-                  <Project tech="React" />
-                </Tab>
-                <Tab title="HTML" className="grey darken-2">
-                  <Project tech="HTML" />
-                </Tab>
-                <Tab title="Bootstrap CSS" className="grey darken-2">
-                  <Project tech="BootStrap" />
-                </Tab>
-                <Tab title="Materialize CSS" className="grey darken-2">
-                  <Project />
-                </Tab>
-              </Tabs>
-            </Row>
+
+            <Tabs className="grey darken-2 tabs-fixed-width">
+              <Tab title="React" className="grey darken-2" active>
+                <Project tech="React" />
+              </Tab>
+              <Tab title="HTML" className="grey darken-2">
+                <Project tech="HTML" />
+              </Tab>
+              <Tab title="Bootstrap CSS" className="grey darken-2">
+                <Project tech="BootStrap" />
+              </Tab>
+              <Tab title="Materialize CSS" className="grey darken-2">
+                <Project />
+              </Tab>
+            </Tabs>
           </Col>
           <Col l={5} s={12} className="grey darken-4">
             <Card className="grey darken-3">

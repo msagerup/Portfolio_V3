@@ -17,7 +17,7 @@ const Bio = () => {
               <p>This is Skills</p>
             </Card>
           </Tab>
-          <Tab className="grey darken-2" title="Contact">
+          <Tab className="grey darken-2" title="Contact" active>
             <Card className="grey darken-3">
               <Contact />
             </Card>
