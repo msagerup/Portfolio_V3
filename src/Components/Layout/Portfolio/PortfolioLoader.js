@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Project from './Project';
 import { Row, Col, CardPanel, Card, Tabs, Tab } from 'react-materialize';
+import Fade from 'react-reveal/Fade';
 
 class PortfolioLoader extends Component {
   render() {
@@ -8,6 +9,17 @@ class PortfolioLoader extends Component {
       <div>
         <Row className="grey darken-3 ">
           <Col l={7} s={12}>
+            <div className="center-align">
+              <i
+                className="fas fa-arrow-down"
+                style={{
+                  fontSize: '5rem',
+                  color: 'white',
+                  paddingTop: '180px'
+                }}
+              />
+            </div>
+
             <h4 className="blue-grey-text text-lighten-4 splash_text_small">
               Check out! Projects beloω...
             </h4>
@@ -32,7 +44,7 @@ class PortfolioLoader extends Component {
                 <Project tech="BootStrap" />
               </Tab>
               <Tab title="Materialize CSS" className="grey darken-2">
-                <Project />
+                <Project tech="Materialize Css" />
               </Tab>
             </Tabs>
           </Col>

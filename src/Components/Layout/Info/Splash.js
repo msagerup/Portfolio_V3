@@ -10,7 +10,7 @@ const Splash = () => {
         className="grey darken-4 white-text valign-wrapper"
       >
         <Card className="grey darken-4">
-          <h1 className="splash_text " style={{ color: '#885631' }}>
+          <h1 className="splash_text " style={{ color: '#67ff91' }}>
             δДgΞΓЦp
           </h1>
         </Card>

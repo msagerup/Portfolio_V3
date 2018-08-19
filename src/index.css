@@ -5,6 +5,30 @@ body {
   font-family: 'Roboto';
 }
 
+a {
+  color: #332;
+  text-decoration: underline;
+}
+
+h2 {
+  font-weight: 600;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.small-margin {
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+.h5-move-up {
+  transform: translateY(-16px);
+}
+
+.letter-spacing {
+  letter-spacing: 3px;
+}
+
 .tabs .tab a {
   color: #333;
 } /*Black color to the text*/
@@ -36,6 +60,38 @@ body {
   letter-spacing: 5px;
   font-weight: 500;
 }
+
+/* ----------------- Form Colors --------------- */
+
+/* label color */
+.input-field label {
+  color: white;
+}
+/* label focus color */
+.input-field input[type='text']:focus + label {
+  color: #000;
+}
+/* label underline focus color */
+.input-field input[type='text']:focus {
+  border-bottom: 1px solid red;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* valid color */
+.input-field input[type='text'].valid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type='text'].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #000;
+}
+
+/* ----------------- Media Size --------------- */
 
 @media only screen and (max-width: 600px) {
   .splash_text {

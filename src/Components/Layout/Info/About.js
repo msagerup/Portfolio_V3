@@ -1,21 +1,40 @@
 import React from 'react';
-import { Row, Col } from 'react-materialize';
+import { Row, Col, Card } from 'react-materialize';
 
 const About = () => {
   return (
-    <Row>
-      <p>
-        One common flaw we've seen in many frameworks is a lack of support for
-        truly responsive text. While elements on the page resize fluidly, text
-        still resizes on a fixed basis. To ameliorate this problem, for text
-        heavy pages, we've created a class that fluidly scales text size and
-        line-height to optimize readability for the user. Line length stays
-        between 45-80 characters and line height scales to be larger on smaller
-        screens. To see Flow Text in action, slowly resize your browser and
-        watch the size of this text body change! Use the button above to toggle
-        off/on flow-text to see the difference!
-      </p>
-    </Row>
+    <React.Fragment>
+      <Row>
+        <h2 className=" grey-text  text-darken-4 center-align small-margin">
+          About Me
+        </h2>
+        <h5
+          className="center-align h5-move-up letter-spacing"
+          style={{ color: '#8cb59b' }}
+        >
+          Allow me to introduce myself.
+        </h5>
+      </Row>
+      <Card className="grey darken-1">
+        <Row>
+          <p>
+            I am obsessed with coding and learning. My spesciallity is{' '}
+            <span>Front-End</span> development, but I also love the complexity
+            of server-side logic. I live currentlty in Oslo and am looking for a
+            development role localy. Feel free to <a href="#">contact me </a>{' '}
+            directly. Or have a look at my <a href="#">CV</a> for a more
+            detailed background of me.
+          </p>
+        </Row>
+        <Row>
+          <p>
+            If you are looking for a helping hand and you feel I would be good
+            fit for your project, feel free to contact me by filling in the{' '}
+            <a href="#">contact form</a>
+          </p>
+        </Row>
+      </Card>
+    </React.Fragment>
   );
 };
 
