@@ -5,15 +5,15 @@ const About = () => {
   return (
     <React.Fragment>
       <Row>
-        <h2 className=" grey-text  text-darken-4 center-align small-margin">
-          About Me
-        </h2>
-        <h5
-          className="center-align h5-move-up letter-spacing"
+        <h3 className=" grey-text text-darken-4 center-align small-margin">
+          Let me tell you a little about me
+        </h3>
+        <h6
+          className="center-align letter-spacing"
           style={{ color: '#8cb59b' }}
         >
           Allow me to introduce myself.
-        </h5>
+        </h6>
       </Row>
       <Card className="grey darken-1">
         <Row>

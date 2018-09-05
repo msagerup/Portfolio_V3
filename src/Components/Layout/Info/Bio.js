@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './About';
 import Contact from './Contact';
+import Skills from './Skills';
 import { Row, Col, Card, Tabs, Tab } from 'react-materialize';
 const Bio = () => {
   return (
@@ -14,11 +15,7 @@ const Bio = () => {
           </Tab>
           <Tab className="grey darken-2" title="Skills">
             <Card className="grey darken-1">
-              <p>
-                Listed below are just some of the "tools of the trade" that I
-                use on a regular basis. Please feel free to contact me if you
-                have any questions. Also, have a look at my CV for more details.{' '}
-              </p>
+              <Skills />
             </Card>
           </Tab>
           <Tab className="grey darken-2" title="Contact" active>
