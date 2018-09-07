@@ -8,13 +8,20 @@ const About = () => {
         <h3 className=" grey-text text-darken-4 center-align small-margin">
           Let me tell you a little about me
         </h3>
+        <div className="headline-bottom">
+          <div className="headline-icon">
+            <i class="fas fa-user-secret" />
+          </div>
+        </div>
+
         <h6
           className="center-align letter-spacing"
-          style={{ color: '#8cb59b' }}
+          style={{ color: '#ffa531' }}
         >
           Allow me to introduce myself.
         </h6>
       </Row>
+      <div className="about-image" />
       <Card className="grey darken-1">
         <Row>
           <p>

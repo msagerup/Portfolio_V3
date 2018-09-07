@@ -8,9 +8,14 @@ const Skills = () => {
         <h3 className=" grey-text text-darken-4 center-align small-margin">
           Skills Of The Trade
         </h3>
+        <div className="headline-bottom">
+          <div className="headline-icon">
+            <i class="fas fa-book" />
+          </div>
+        </div>
         <h6
           className="center-align  letter-spacing"
-          style={{ color: '#8cb59b' }}
+          style={{ color: '#ffa531' }}
         >
           I use these tools of the trade on a regular
         </h6>

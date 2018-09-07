@@ -69,7 +69,10 @@ h2 {
 }
 /* label focus color */
 .input-field input[type='text']:focus + label {
-  color: #000;
+  color: #000 !important;
+}
+.input-field input[type='text']:focus + label {
+  color: #000 !important;
 }
 /* label underline focus color */
 .input-field input[type='text']:focus {
@@ -89,6 +92,51 @@ h2 {
 /* icon prefix focus color */
 .input-field .prefix.active {
   color: #000;
+}
+
+/* ----------------- Head Lines --------------- */
+/* Headline Line */
+.headline {
+  border: 5px solid #f16f74;
+}
+.headline-bottom {
+  height: 5px;
+  background-color: orange;
+  position: relative;
+}
+
+.headline-icon {
+  position: absolute;
+  left: 0;
+  top: -50px;
+}
+
+.headline-icon i {
+  font-size: 3rem;
+  color: #262626;
+}
+
+/* ----------------- Inputs --------------- */
+
+/* Button*/
+
+.btn {
+  background-color: #262626;
+}
+
+.btn:hover {
+  background-color: #ee6e73 !important;
+}
+
+/* ----------------- Info Images --------------- */
+.about-image {
+  height: 74px;
+  width: 102px;
+  border-radius: 50%;
+  background-image: url(./img/me.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 30% 40%;
 }
 
 /* ----------------- Media Size --------------- */

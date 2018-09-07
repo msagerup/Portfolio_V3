@@ -11,12 +11,17 @@ class Contact extends Component {
     return (
       <React.Fragment>
         <Row>
-          <h3 className=" grey-text text-darken-4 center-align small-margin">
+          <h3 className="z-1 grey-text text-darken-4 center-align small-margin">
             Drop me a message
           </h3>
+          <div className="headline-bottom">
+            <div className="headline-icon">
+              <i class="fas fa-envelope-open" />
+            </div>
+          </div>
           <h6
             className="center-align  letter-spacing"
-            style={{ color: '#8cb59b' }}
+            style={{ color: '#ffa531' }}
           >
             I'd love to hear from you
           </h6>
@@ -60,7 +65,7 @@ class Contact extends Component {
             <Row>
               <div class="input-field col s12">
                 <textarea id="textarea1" class="materialize-textarea" />
-                <label for="textarea1">Textarea</label>
+                <label for="textarea1">Your Message here...</label>
               </div>
             </Row>
             <Row>
